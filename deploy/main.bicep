@@ -19,7 +19,6 @@ param apimName string = 'store-api-mgmt-${uniqueString(resourceGroup().id)}'
 param deployApim bool = true
 param isPrivateRegistry bool = false
 
-
 param containerRegistry string
 param containerRegistryUsername string = 'testUser'
 @secure()
